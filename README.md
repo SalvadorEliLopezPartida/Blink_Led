@@ -10,7 +10,7 @@
 
 // the loop function runs over and over again forever
 void loop() {
-  Serial.print(F("prendido \n"));
+  Serial.print(F("prendido \n"));   // manda el mensaje de perndido para cuando se prende el led
   digitalWrite(LED_BUILTIN, HIGH);  // manda la señal para que se prende el led
   delay(1000);                      // tiempo de espera de mil milisegundos para prender
   Serial.print(F("apagado \n"));    // manda el mensaje de apagado para cuando se apaga el led
