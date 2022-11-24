@@ -3,7 +3,7 @@
 @Ingeniería en Sistemas Computacionales.
 @Autor: López Partida Salvador Eli.
 
-'''void setup() {
+```void setup() {
   // initialize digital pin LED_BUILTIN as an output.
   pinMode(LED_BUILTIN, OUTPUT);      
 }
@@ -17,4 +17,4 @@ void loop() {
   digitalWrite(LED_BUILTIN, LOW);   // manda la señal para que se apague el led
   delay(1000);                      // tiempo de espera de mil milisegundos para apagarse
    
-}'''
+}```
