@@ -4,6 +4,7 @@
 @Departamento de Sistemas y Computación.
 @Ingeniería en Sistemas Computacionales.
 @Autor: López Partida Salvador Eli.
+Fecha de entrega: 7 de Octubre del 2022.
 
 
   void setup() {
