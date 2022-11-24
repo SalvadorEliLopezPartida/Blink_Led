@@ -1,9 +1,12 @@
-@Instituto Tecnológico de Tijuana.
+
+
+```@Instituto Tecnológico de Tijuana.
 @Departamento de Sistemas y Computación.
 @Ingeniería en Sistemas Computacionales.
 @Autor: López Partida Salvador Eli.
 
-```void setup() {
+
+  void setup() {
   // initialize digital pin LED_BUILTIN as an output.
   pinMode(LED_BUILTIN, OUTPUT);      
 }
