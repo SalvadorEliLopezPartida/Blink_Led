@@ -9,10 +9,10 @@ Fecha de entrega: 7 de Octubre del 2022.
 
   void setup() {
   // initialize digital pin LED_BUILTIN as an output.
-  pinMode(LED_BUILTIN, OUTPUT);      
+  pinMode(LED_BUILTIN, OUTPUT);      //inicializa el pin digital del Led como un dato de salida. 
 }
 
-// the loop function runs over and over again forever
+// crea el búcle de la función
 void loop() {
   Serial.print(F("prendido \n"));   // manda el mensaje de perndido para cuando se prende el led
   digitalWrite(LED_BUILTIN, HIGH);  // manda la señal para que se prende el led
